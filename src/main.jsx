@@ -5,8 +5,8 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 import { UserAuthProvider } from "./Context/Userauth.context.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Amplify } from "aws-amplify";
-import awsconfig from "./aws-exports.js";
-Amplify.configure(awsconfig);
+import awsmobile from "./aws-exports.js";
+Amplify.configure(awsmobile);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
